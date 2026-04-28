@@ -1,0 +1,7 @@
+graph,n_edges,n_sources,n_targets,n_unique_nodes
+q1_graph1,1216,58,81,93
+q1_graph2,1300,52,79,87
+q1_graph3,729,45,64,79
+q1_graph4,732,28,85,87
+q1_graph5,395,13,84,86
+template,1325,53,73,88
