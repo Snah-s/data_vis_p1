@@ -1,0 +1,16 @@
+{
+  "name": "graphletmatchmaker-d3-visualizations",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data": "micromamba run -n vast2020 python scripts/generate_d3_data.py",
+    "dev": "vite --host 0.0.0.0",
+    "build": "npm run data && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "d3": "latest",
+    "vite": "latest"
+  }
+}

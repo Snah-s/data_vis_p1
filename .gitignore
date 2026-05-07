@@ -1,1 +1,3 @@
 src/*.csv
+node_modules/
+dist/
